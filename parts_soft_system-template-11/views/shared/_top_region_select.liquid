@@ -1,0 +1,21 @@
+{% unless current_customer %}
+{% if site_config.enable_region_select %}
+<div class="b-tsd-cities dropdown">
+    <a href="" class="b-tsd-city-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{current_region.name}}
+    </a>
+    <div class="dropdown-menu">
+        <div class="b-top-city-popup">
+            <ul class="b-list">
+                {% for list_region in regions %}
+                  <li>
+                    <a href="/?region_id={{list_region.id}}" class="{% if current_region.id == list_region.id %}active{% endif %}">
+                      {{list_region.name}}
+                    </a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endunless %}

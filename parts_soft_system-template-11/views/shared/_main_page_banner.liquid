@@ -1,0 +1,15 @@
+{% cache 'main_page_banner', 1 %}
+    {% assign banners = 'banner_eleven_main_slider' | banner_by_code %}
+    <div class="b-mc-slider">
+        {% for banner in banners %}
+            <div class="b-item" data-url="{{banner.url}}">
+                <img src="{{banner.image_url}}" alt="">
+                {% if banner.description != '' %}
+                    <div class="b-txt"><span>
+                        {{banner.description}}
+                    </span></div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+{% endcache %}

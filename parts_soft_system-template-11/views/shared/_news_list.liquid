@@ -1,0 +1,13 @@
+{% assign newses = 4 | news_list %}
+<div class="b-head">{{'system-template-11.news.news' | ft}}</div>
+{% if newses %}
+<ul class="b-list-news">
+{% for news in newses %}
+    <li>
+        <time datetime="{{news.created_at | date: "%Y-%m-%d" }}">{{news.created_at | date:"%d.%m.%Y" }}</time>
+        <div class="b-news-head"><a href="/news/{{news.slug}}.html">{{news.title}}</a></div>
+    </li>
+{% endfor %}
+</ul>
+<div class="b-all-news"><a href="/news.html">{{'system-template-11.news.all_news' | ft}}</a></div>
+{% endif %}

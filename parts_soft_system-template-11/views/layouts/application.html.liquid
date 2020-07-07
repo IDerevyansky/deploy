@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  {{favicon}}
+  {{csrf_meta_tag}}
+  {{ seo_params }}
+  
+  {{ system_stylesheets }}
+  {{ system_javascripts }}
+
+  {{ "style.css" | stylesheet_link_tag: 'screen, projection'}}
+  {{ "responsive.css" | stylesheet_link_tag: 'screen, projection'}}
+
+  <!--[if lt IE 9]>
+    {{"html5.js" | javascript_link_tag}}
+  <![endif]-->
+  {{ system_include }}
+  <style>
+    {{site_config.custom_css}}
+  </style>
+  {{site_config.head_script}}
+</head>
+<body>
+  {{site_config.top_script}}
+  <div class="b-wrap-all">
+    <div class="b-wrap-all-inner">
+        <div class="b-container">
+            <header class="b-header">
+                <div class="b-top-side">
+                    <div class="b-tsd-tb">
+                        <div class="b-mob-nav"><span></span><span></span><span></span><span></span></div>
+                        {% include 'shared/_region_select.liquid' %}
+                        {% include 'shared/_top_nav.liquid' %}
+                        {% include 'shared/_user_nav.liquid' %}
+                    </div><!-- /.b-header-top-side -->
+                </div>
+                <div class="b-mid-side">
+                    <div class="b-msd-tb">
+                        {% cache 'header-mid-side', 1 %}
+                        {% include 'shared/_top_logo.liquid' %}
+                        <div class="b-msd-contact">
+                            {% include 'shared/_header_contact.liquid' %}
+                        </div>
+                        <div class="b-msd-shedule">
+                            {% include 'shared/_header_shedule.liquid' %}
+                        </div>
+                        {% endcache %}
+                    </div>
+                </div>
+                <div class="b-bot-side">
+                    <div class="b-bsd-tb">
+                        {% cache 'catalog_block', 1 %}
+                        <div class="b-bsd-cat-td">
+                            <div class="b-bsd-cat dropdown">
+                                <div class="b-bsd-cat-label" data-toggle="dropdown" aria-haspopup="true"
+                                     aria-expanded="false">{{'system-template-11.layouts.catalogs' | ft}}</div>
+                                {% include 'shared/_header_nav_catalog.liquid' %}
+                            </div>
+                        </div>
+                        {% endcache %}
+                        <div class="b-bsd-search-td">
+                            {% include 'shared/_search_panel.liquid' %}
+                        </div>
+                        <div class="b-bsd-basket-td">
+                            {% include 'baskets/_mini.liquid' %}
+                        </div>
+                    </div>
+                </div>
+            </header><!-- /.b-header -->
+            <div class="b-content clearfix">
+                {{ content_for_layout }}
+                {{ seo_text }}
+                <div class="cl clear"></div>
+            </div><!-- /.b-content -->
+        </div><!-- /.b-container -->
+      </div>
+    </div>
+
+    <div class="b-popup-mob-nav-splash"></div>
+    <div class="b-mobv-nav">
+        <div class="b-mobv-nav-inner">
+            {% include 'shared/_mobile_nav.liquid' %}
+        </div>
+    </div>
+
+    {% cache 'footer_block', 1 %}
+    <footer class="b-footer">
+        <div class="b-container">
+            <div class="b-foot-tb">
+                <div class="b-foot-logo">
+                    {% if_option show_footer_logo %}
+                        {% include 'shared/_foot_logo.liquid' %}
+                    {% endif_option %}
+                    {% if_option show_copyright %}
+                        <div class="b-copyright">{{ "now" | date: "%Y" }} &copy; {{current_region.essential.company_name}}</div>
+                    {% endif_option %}    
+                </div>
+                {% include 'shared/_foot_nav.liquid' %}
+                <div class="b-foot-soc-td">
+                    {% if_option show_footer_soc_list %}
+                        {% include 'shared/_foot_soc_list.liquid' %}
+                    {% endif_option %}    
+                </div>
+            </div>
+        </div>
+        <div id="scrollup"></div>
+    </footer><!-- /.b-footer -->
+  {% endcache %}
+  </div><!-- /.b-wrap-all -->
+  {{"script.js" | javascript_link_tag}}
+  {{current_region.footer_code}}
+  {{site_config.bottom_script}}
+  {{system_search_vars}}
+  {{system_template_elements}}
+</body>
+
+</html>

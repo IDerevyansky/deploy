@@ -1,0 +1,25 @@
+<div class="b-prod-carousel">
+{% assign sale_products = 10 | sale_price_items %}
+{% for price_item in sale_products %}
+  <div class="b-item">
+    
+      <div class="b-pic"><i>
+        <a class="fancybox" href="{{price_item.first_image_url}}">
+          <img src="{{price_item.first_image_url}}" width="226" height="105">
+        </a>
+      </i></div>
+      <div class="b-inner">
+          <div class="b-head">
+            <a href="{{price_item.product_url}}" target="_blank">{{price_item.oem}} {{price_item.make_name}}</a>
+          </div>
+          <div class="b-meta">
+            <div class="b-price">
+              {{price_item.cost | round: 2 }} <i>{{'number.currency.format.unit' | ft}}</i>
+            </div>
+            {% include 'baskets/_button.liquid', price_item: price_item, btn_class: 'b-btn-add2b' %}
+          </div>
+        </div>  
+    
+  </div>
+{% endfor %}
+</div>

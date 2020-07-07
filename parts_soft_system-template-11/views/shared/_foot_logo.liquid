@@ -1,0 +1,9 @@
+<a class="b-foot-logo-link" href="{% unless current_path == '/' %}/{%endunless%}">
+    <span class="b-ico">
+        {% if current_template.footer_logo_file_name == blank %}
+            <img src="{{ 'foot-logo.png' | asset_url }}" alt="">
+        {% else %}
+            <img src="{{ current_template.footer_logo_file_name | asset_url }}" alt="">
+        {% endif %}    
+    </span>
+</a>
