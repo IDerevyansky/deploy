@@ -1,0 +1,26 @@
+<div class="b-prod-carousel">
+  {% assign sale_products = 10 | sale_products %}
+  {% for product in sale_products %}
+    <div class="b-item">
+      <div class="b-pic"><i>
+        <a href="{{product.product_url}}">
+          <img src="{{product.product_photo}}" width="226" height="105">
+        </a>
+      </i></div>
+      <div class="b-inner">
+        <div class="b-head"><a href="{{product.product_url}}">{{product.detail_name}}</a></div>        
+        <div class="b-meta">
+          <div class="b-price">
+            {% if product.before_sale_price > 0 %}
+            <div class="b-tps-old-price">
+              <span>{{product.before_sale_price | round: 2 }} {{'number.currency.format.unit' | ft}}</span>
+            </div>
+            {% endif %}
+            {{product.price | round: 2 }} {{'number.currency.format.unit' | ft}}
+          </div>
+          <a class="btn btn-primary b-tps-buy" href="{{product.product_url}}">{{'site_templates.default.products.sale_products.buy' | ft}}</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

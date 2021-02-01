@@ -1,15 +1,28 @@
 {
-  "main.css": "/static/css/main.e46cd552.chunk.css",
-  "main.js": "/static/js/main.ea9f2a39.chunk.js",
-  "main.js.map": "/static/js/main.ea9f2a39.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/css/2.0072cc78.chunk.css": "/static/css/2.0072cc78.chunk.css",
-  "static/js/2.155fb25f.chunk.js": "/static/js/2.155fb25f.chunk.js",
-  "static/js/2.155fb25f.chunk.js.map": "/static/js/2.155fb25f.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.f907785bb670632661077b6fbddbf155.js": "/precache-manifest.f907785bb670632661077b6fbddbf155.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.0072cc78.chunk.css.map": "/static/css/2.0072cc78.chunk.css.map",
-  "static/css/main.e46cd552.chunk.css.map": "/static/css/main.e46cd552.chunk.css.map"
+  "files": {
+    "main.css": "/static/css/main.3baf54c8.chunk.css",
+    "main.js": "/static/js/main.337fbda0.chunk.js",
+    "main.js.map": "/static/js/main.337fbda0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.96678d91.js",
+    "runtime-main.js.map": "/static/js/runtime-main.96678d91.js.map",
+    "static/js/2.1cb92cf8.chunk.js": "/static/js/2.1cb92cf8.chunk.js",
+    "static/js/2.1cb92cf8.chunk.js.map": "/static/js/2.1cb92cf8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.187ecd5bbcf7e2f07d7d522f7e40c72b.js": "/precache-manifest.187ecd5bbcf7e2f07d7d522f7e40c72b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3baf54c8.chunk.css.map": "/static/css/main.3baf54c8.chunk.css.map",
+    "static/js/2.1cb92cf8.chunk.js.LICENSE.txt": "/static/js/2.1cb92cf8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/AvenirNextCyr-Regular.97b615b9.ttf",
+    "static/media/footer.css": "/static/media/vk.73d44733.svg",
+    "static/media/menu.css": "/static/media/whatsapp.df8d33eb.svg",
+    "static/media/callBack.css": "/static/media/whatsapp-gray.641f3652.svg",
+    "static/media/Main.css": "/static/media/face_main_banner.075e5280.png",
+    "static/media/PopUp.css": "/static/media/mainPage.6f11557e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96678d91.js",
+    "static/js/2.1cb92cf8.chunk.js",
+    "static/css/main.3baf54c8.chunk.css",
+    "static/js/main.337fbda0.chunk.js"
+  ]
 }

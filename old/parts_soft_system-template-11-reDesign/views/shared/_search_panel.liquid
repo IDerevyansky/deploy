@@ -1,0 +1,13 @@
+<div class="b-bsd-search">
+    <form action="{{ blank | search_price_items_url}}">
+        <ul class="b-list">
+            <li class="b-item">
+                <div class="b-search-container">
+                    <input type="text" class="b-input-search" name="oem" id="oem" placeholder="{{'system-template-11.search_panel.placeholder' | ft}}" value="{{params.oem}}">
+                </div>
+            </li>
+            <li class="b-item b-item-send"><button class="b-btn-send">{{'system-template-11.search_panel.search' | ft}}</button></li>
+            <li class="b-item b-item-vin"><a class="b-btn-vin" href="/vin_queries/new">{{'system-template-11.vin_btn' | ft}}</a></li>
+        </ul>
+    </form>
+</div>

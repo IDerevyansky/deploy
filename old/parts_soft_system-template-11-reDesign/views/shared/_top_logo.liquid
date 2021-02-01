@@ -1,0 +1,15 @@
+<div class="b-msd-logo">
+    <a class="b-logo-link" href="{% unless current_path == '/' %}/{%endunless%}">
+        <span class="b-ico">
+            {% if current_template.top_logo_file_name == blank %}
+                <img src="{{ 'logo.png' | asset_url }}" alt="">
+            {% else %}
+                <img src="{{ current_template.top_logo_file_name | asset_url }}" alt="">
+            {% endif %}    
+        </span>
+        <span class="b-txt">
+            <span class="b-head">{{'system-template-11.logo.company_name' | ft}}</span>
+            <span class="b-sub-head">{{'system-template-11.logo.sub_head' | ft}}</span>
+        </span>
+    </a>
+</div>

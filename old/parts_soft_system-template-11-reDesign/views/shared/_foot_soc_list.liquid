@@ -1,0 +1,17 @@
+<ul class="b-foot-soc-list">
+    {% unless {{site_config.fb_url}} == blank %}
+        <li><a class="b-foot-soc-1" href="{{site_config.fb_url}}"></a></li>
+    {% endunless %}    
+    {% unless {{site_config.tw_url}} == blank %}    
+        <li><a class="b-foot-soc-2" href="{{site_config.tw_url}}"></a></li>
+    {% endunless %}    
+    {% unless {{site_config.instagram_url}} == blank %}    
+        <li><a class="b-foot-soc-3" href="{{site_config.instagram_url}}"></a></li>
+    {% endunless %}    
+    {% unless {{site_config.vk_url}} == blank %}    
+        <li><a class="b-foot-soc-4" href="{{site_config.vk_url}}"></a></li>
+    {% endunless %}    
+    {% unless {{site_config.ok_url}} == blank %}    
+        <li><a class="b-foot-soc-5" href="{{site_config.ok_url}}"></a></li>
+    {% endunless %}    
+</ul>
