@@ -101,22 +101,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "dd2a93702dc7a347dbc5da15b7b52bf6",
-    "url": "/static/media/viber-gray.dd2a9370.svg"
+    "url": "static/media/viber-gray.dd2a9370.svg"
   },
   {
     "revision": "fe9e7e798050d012dd2247691400068d",
-    "url": "/static/media/viber.fe9e7e79.svg"
+    "url": "static/media/viber.fe9e7e79.svg"
   },
   {
     "revision": "73d44733607718af9e2b412f49f185b1",
-    "url": "/static/media/vk.73d44733.svg"
+    "url": "static/media/vk.73d44733.svg"
   },
   {
     "revision": "641f3652b0a330e71c74c165a25c14bc",
-    "url": "/static/media/whatsapp-gray.641f3652.svg"
+    "url": "static/media/whatsapp-gray.641f3652.svg"
   },
   {
     "revision": "df8d33ebfc12d3345916478725a5778f",
-    "url": "/static/media/whatsapp.df8d33eb.svg"
+    "url": "static/media/whatsapp.df8d33eb.svg"
   }
 ]);
