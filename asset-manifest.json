@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/IDerevyansky/deploystatic/css/main.0ef8aed8.chunk.css",
-    "main.js": "/IDerevyansky/deploystatic/js/main.97d23301.chunk.js",
-    "main.js.map": "/IDerevyansky/deploystatic/js/main.97d23301.chunk.js.map",
-    "runtime-main.js": "/IDerevyansky/deploystatic/js/runtime-main.710f1425.js",
-    "runtime-main.js.map": "/IDerevyansky/deploystatic/js/runtime-main.710f1425.js.map",
-    "static/js/2.1cb92cf8.chunk.js": "/IDerevyansky/deploystatic/js/2.1cb92cf8.chunk.js",
-    "static/js/2.1cb92cf8.chunk.js.map": "/IDerevyansky/deploystatic/js/2.1cb92cf8.chunk.js.map",
-    "index.html": "/IDerevyansky/deployindex.html",
-    "precache-manifest.80fd299b20985307397c850e160bba2b.js": "/IDerevyansky/deployprecache-manifest.80fd299b20985307397c850e160bba2b.js",
-    "service-worker.js": "/IDerevyansky/deployservice-worker.js",
-    "static/css/main.0ef8aed8.chunk.css.map": "/IDerevyansky/deploystatic/css/main.0ef8aed8.chunk.css.map",
-    "static/js/2.1cb92cf8.chunk.js.LICENSE.txt": "/IDerevyansky/deploystatic/js/2.1cb92cf8.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/IDerevyansky/deploystatic/media/AvenirNextCyr-Regular.97b615b9.ttf",
-    "static/media/footer.css": "/IDerevyansky/deploystatic/media/vk.73d44733.svg",
-    "static/media/menu.css": "/IDerevyansky/deploystatic/media/whatsapp.df8d33eb.svg",
-    "static/media/callBack.css": "/IDerevyansky/deploystatic/media/whatsapp-gray.641f3652.svg",
-    "static/media/Main.css": "/IDerevyansky/deploystatic/media/face_main_banner.075e5280.png",
-    "static/media/PopUp.css": "/IDerevyansky/deploystatic/media/mainPage.6f11557e.png"
+    "main.css": "/deploy/static/css/main.f39d94de.chunk.css",
+    "main.js": "/deploy/static/js/main.0e2d2ed7.chunk.js",
+    "main.js.map": "/deploy/static/js/main.0e2d2ed7.chunk.js.map",
+    "runtime-main.js": "/deploy/static/js/runtime-main.7ff09cd2.js",
+    "runtime-main.js.map": "/deploy/static/js/runtime-main.7ff09cd2.js.map",
+    "static/js/2.1cb92cf8.chunk.js": "/deploy/static/js/2.1cb92cf8.chunk.js",
+    "static/js/2.1cb92cf8.chunk.js.map": "/deploy/static/js/2.1cb92cf8.chunk.js.map",
+    "index.html": "/deploy/index.html",
+    "precache-manifest.4b2000f0203e358862321fbbe740be6a.js": "/deploy/precache-manifest.4b2000f0203e358862321fbbe740be6a.js",
+    "service-worker.js": "/deploy/service-worker.js",
+    "static/css/main.f39d94de.chunk.css.map": "/deploy/static/css/main.f39d94de.chunk.css.map",
+    "static/js/2.1cb92cf8.chunk.js.LICENSE.txt": "/deploy/static/js/2.1cb92cf8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/deploy/static/media/AvenirNextCyr-Regular.97b615b9.ttf",
+    "static/media/footer.css": "/deploy/static/media/vk.73d44733.svg",
+    "static/media/menu.css": "/deploy/static/media/whatsapp.df8d33eb.svg",
+    "static/media/Main.css": "/deploy/static/media/face_main_banner.075e5280.png",
+    "static/media/callBack.css": "/deploy/static/media/whatsapp-gray.641f3652.svg",
+    "static/media/PopUp.css": "/deploy/static/media/mainPage.6f11557e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.710f1425.js",
+    "static/js/runtime-main.7ff09cd2.js",
     "static/js/2.1cb92cf8.chunk.js",
-    "static/css/main.0ef8aed8.chunk.css",
-    "static/js/main.97d23301.chunk.js"
+    "static/css/main.f39d94de.chunk.css",
+    "static/js/main.0e2d2ed7.chunk.js"
   ]
 }
