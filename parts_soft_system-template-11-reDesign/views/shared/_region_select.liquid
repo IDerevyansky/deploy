@@ -1,9 +1,0 @@
-<div class="b-tsd-cities">
-    {% include 'localize/_flags.liquid' %}
-    {% assign page_contact = 'contact' | page_by_system_id %}
-    {% if current_customer or site_config.enable_region_select != true  %}
-        <a href="{{ page_contact | custom_page_url }}" class="b-tsd-city-link">{{current_region.name}}</a>
-    {% else %}
-        <a href="#" class="b-tsd-city-link" data-toggle="modal" data-target="#default-select-region-modal">{{current_region.name}}</a>
-    {% endif %}
-</div>
