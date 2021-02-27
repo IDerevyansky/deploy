@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deploy/static/css/main.95cd1566.chunk.css",
+    "main.css": "/deploy/static/css/main.00bdeeff.chunk.css",
     "main.js": "/deploy/static/js/main.2a49a639.chunk.js",
     "main.js.map": "/deploy/static/js/main.2a49a639.chunk.js.map",
     "runtime-main.js": "/deploy/static/js/runtime-main.7ff09cd2.js",
@@ -8,9 +8,9 @@
     "static/js/2.1cb92cf8.chunk.js": "/deploy/static/js/2.1cb92cf8.chunk.js",
     "static/js/2.1cb92cf8.chunk.js.map": "/deploy/static/js/2.1cb92cf8.chunk.js.map",
     "index.html": "/deploy/index.html",
-    "precache-manifest.852603b69a69772a23c4722daa023972.js": "/deploy/precache-manifest.852603b69a69772a23c4722daa023972.js",
+    "precache-manifest.eb063c12df3523e786e2cb5dbf040178.js": "/deploy/precache-manifest.eb063c12df3523e786e2cb5dbf040178.js",
     "service-worker.js": "/deploy/service-worker.js",
-    "static/css/main.95cd1566.chunk.css.map": "/deploy/static/css/main.95cd1566.chunk.css.map",
+    "static/css/main.00bdeeff.chunk.css.map": "/deploy/static/css/main.00bdeeff.chunk.css.map",
     "static/js/2.1cb92cf8.chunk.js.LICENSE.txt": "/deploy/static/js/2.1cb92cf8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/deploy/static/media/AvenirNextCyr-Regular.97b615b9.ttf",
     "static/media/footer.css": "/deploy/static/media/vk.73d44733.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.7ff09cd2.js",
     "static/js/2.1cb92cf8.chunk.js",
-    "static/css/main.95cd1566.chunk.css",
+    "static/css/main.00bdeeff.chunk.css",
     "static/js/main.2a49a639.chunk.js"
   ]
 }
