@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/deploy/static/css/main.9192c652.chunk.css",
-    "main.js": "/deploy/static/js/main.feadf48c.chunk.js",
-    "main.js.map": "/deploy/static/js/main.feadf48c.chunk.js.map",
+    "main.css": "/deploy/static/css/main.362fac34.chunk.css",
+    "main.js": "/deploy/static/js/main.7cf9b761.chunk.js",
+    "main.js.map": "/deploy/static/js/main.7cf9b761.chunk.js.map",
     "runtime-main.js": "/deploy/static/js/runtime-main.7ff09cd2.js",
     "runtime-main.js.map": "/deploy/static/js/runtime-main.7ff09cd2.js.map",
     "static/js/2.af737744.chunk.js": "/deploy/static/js/2.af737744.chunk.js",
     "static/js/2.af737744.chunk.js.map": "/deploy/static/js/2.af737744.chunk.js.map",
     "index.html": "/deploy/index.html",
-    "precache-manifest.9a01b4d6a9c3971ed6eb627bab635137.js": "/deploy/precache-manifest.9a01b4d6a9c3971ed6eb627bab635137.js",
+    "precache-manifest.eb9f6a78401ec397bace3116f7ba1a68.js": "/deploy/precache-manifest.eb9f6a78401ec397bace3116f7ba1a68.js",
     "service-worker.js": "/deploy/service-worker.js",
-    "static/css/main.9192c652.chunk.css.map": "/deploy/static/css/main.9192c652.chunk.css.map",
+    "static/css/main.362fac34.chunk.css.map": "/deploy/static/css/main.362fac34.chunk.css.map",
     "static/js/2.af737744.chunk.js.LICENSE.txt": "/deploy/static/js/2.af737744.chunk.js.LICENSE.txt",
     "static/media/index.css": "/deploy/static/media/AvenirNextCyr-Regular.97b615b9.ttf",
     "static/media/WhatIs.css": "/deploy/static/media/banner_WhatIs.64c780a6.png",
@@ -20,12 +20,13 @@
     "static/media/callBack.css": "/deploy/static/media/whatsapp-gray.641f3652.svg",
     "static/media/MainOld.css": "/deploy/static/media/btnSingUp.bb7efa1a.svg",
     "static/media/PopUp.css": "/deploy/static/media/mainPage.6f11557e.png",
-    "static/media/header-banner.css": "/deploy/static/media/face_main_banner.075e5280.png"
+    "static/media/header-banner.css": "/deploy/static/media/face_main_banner.075e5280.png",
+    "static/media/question.css": "/deploy/static/media/more.66e0e9e4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7ff09cd2.js",
     "static/js/2.af737744.chunk.js",
-    "static/css/main.9192c652.chunk.css",
-    "static/js/main.feadf48c.chunk.js"
+    "static/css/main.362fac34.chunk.css",
+    "static/js/main.7cf9b761.chunk.js"
   ]
 }
